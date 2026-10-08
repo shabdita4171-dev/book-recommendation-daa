@@ -21,7 +21,7 @@ with st.sidebar:
     selected=st.selectbox("Select a book",list(books),format_func=lambda x:titles[x])
     st.divider(); st.write("**Graph model**"); st.write("Vertex = Book"); st.write("Edge = Similarity"); st.write("Weight = 100 − Similarity")
 
-tabs=st.tabs(["Dashboard","Book Details","BFS","DFS","Dijkstra","Recommendations","Algorithm Comparison","Viva"])
+tabs=st.tabs(["Dashboard","Book Details","BFS","DFS","Dijkstra","Recommendations","Algorithm Comparison"])
 with tabs[0]:
     c=st.columns(4); c[0].metric("Books / Vertices",len(books)); c[1].metric("Graph Edges",sum(map(len,graph.values()))//2); c[2].metric("Genres",df.genre.nunique()); c[3].metric("Algorithms",5)
     fig=draw_graph(graph,books,focus=selected)
@@ -78,8 +78,4 @@ with tabs[6]:
 | Dijkstra | Weighted shortest path | O((V + E) log V) | O(V) |
 | Merge Sort | Ranking | O(n log n) | O(n) |
 | Priority Queue | Top-K | O(n log k) | O(k) |""")
-with tabs[7]:
-    st.subheader("Viva Cheat Sheet")
-    qs=[("Why a graph?","Books are vertices and similarity relationships are weighted edges."),("Why BFS?","It explores books level by level."),("Why DFS?","It demonstrates deep traversal and connectivity."),("Why Dijkstra?","It finds minimum-cost paths with non-negative weights."),("Why not BFS for weighted paths?","BFS ignores edge weights."),("How is similarity calculated?","Genre, author, rating closeness and common tags contribute deterministic points."),("What is edge weight?","100 − similarity."),("How are recommendations ranked?","Candidates are ranked with Merge Sort and Top-K can be retrieved with a priority queue."),("Is ML used?","No, the project is deliberately algorithmic."),("BFS complexity?","O(V + E)."),("DFS complexity?","O(V + E)."),("Dijkstra complexity?","O((V + E) log V).")]
-    for q,a in qs:
-        with st.expander(q): st.write(a)
+
