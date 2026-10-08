@@ -1,0 +1,41 @@
+id,title,author,genre,rating,year,tags
+1,Harry Potter and the Sorcerer's Stone,J.K. Rowling,Fantasy,4.8,1997,fantasy magic school adventure
+2,Harry Potter and the Chamber of Secrets,J.K. Rowling,Fantasy,4.7,1998,fantasy magic school mystery adventure
+3,The Hobbit,J.R.R. Tolkien,Fantasy,4.8,1937,fantasy adventure quest magic
+4,The Fellowship of the Ring,J.R.R. Tolkien,Fantasy,4.9,1954,fantasy adventure quest magic
+5,Percy Jackson and the Lightning Thief,Rick Riordan,Fantasy,4.6,2005,fantasy mythology adventure school
+6,The Lion the Witch and the Wardrobe,C.S. Lewis,Fantasy,4.7,1950,fantasy adventure magic mythology
+7,The Alchemist,Paulo Coelho,Fiction,4.5,1988,fiction journey philosophy adventure
+8,The Kite Runner,Khaled Hosseini,Fiction,4.6,2003,fiction friendship family drama
+9,The Book Thief,Markus Zusak,Historical Fiction,4.7,2005,history fiction war friendship drama
+10,The Da Vinci Code,Dan Brown,Mystery,4.4,2003,mystery thriller puzzle history
+11,Gone Girl,Gillian Flynn,Thriller,4.2,2012,thriller mystery crime psychology
+12,Sherlock Holmes,Arthur Conan Doyle,Mystery,4.7,1887,mystery detective crime investigation
+13,The Murder of Roger Ackroyd,Agatha Christie,Mystery,4.6,1926,mystery detective crime puzzle
+14,Atomic Habits,James Clear,Self Help,4.7,2018,self-help habits productivity psychology
+15,Deep Work,Cal Newport,Self Help,4.6,2016,self-help productivity focus technology
+16,The 7 Habits of Highly Effective People,Stephen Covey,Self Help,4.5,1989,self-help productivity habits leadership
+17,Think and Grow Rich,Napoleon Hill,Self Help,4.4,1937,self-help success psychology business
+18,Steve Jobs,Walter Isaacson,Biography,4.5,2011,biography technology leadership business
+19,Elon Musk,Ashlee Vance,Biography,4.4,2015,biography technology business leadership
+20,The Innovators,Walter Isaacson,Technology,4.4,2014,technology innovation history biography
+21,Clean Code,Robert C. Martin,Technology,4.6,2008,technology programming software engineering
+22,The Pragmatic Programmer,David Thomas,Technology,4.7,1999,technology programming software engineering
+23,Introduction to Algorithms,Thomas H. Cormen,Technology,4.5,1990,technology algorithms programming computer-science
+24,Dune,Frank Herbert,Science Fiction,4.8,1965,science-fiction space politics adventure
+25,Ender's Game,Orson Scott Card,Science Fiction,4.6,1985,science-fiction space military strategy
+26,The Martian,Andy Weir,Science Fiction,4.7,2011,science-fiction space survival technology
+27,Project Hail Mary,Andy Weir,Science Fiction,4.8,2021,science-fiction space survival adventure
+28,1984,George Orwell,Science Fiction,4.6,1949,science-fiction dystopia politics society
+29,Pride and Prejudice,Jane Austen,Romance,4.8,1813,romance fiction society relationships
+30,The Notebook,Nicholas Sparks,Romance,4.3,1996,romance fiction relationships drama
+31,Me Before You,Jojo Moyes,Romance,4.5,2012,romance fiction relationships drama
+32,The Great Gatsby,F. Scott Fitzgerald,Fiction,4.4,1925,fiction romance society relationships
+33,The Silent Patient,Alex Michaelides,Thriller,4.3,2019,thriller mystery psychology crime
+34,The Girl with the Dragon Tattoo,Stieg Larsson,Thriller,4.4,2005,thriller mystery crime investigation
+35,The Psychology of Money,Morgan Housel,Self Help,4.6,2020,self-help finance psychology habits
+36,Ikigai,Hector Garcia,Fiction,4.4,2016,self-help philosophy productivity life
+37,Sapiens,Yuval Noah Harari,History,4.6,2011,history humanity society science
+38,Guns Germs and Steel,Jared Diamond,History,4.5,1997,history humanity society geography
+39,A Brief History of Time,Stephen Hawking,Science,4.5,1988,science space physics technology
+40,Cosmos,Carl Sagan,Science,4.7,1980,science space astronomy philosophy
